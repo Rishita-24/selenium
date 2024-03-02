@@ -1,0 +1,60 @@
+{
+  "id": "4e50cc52-e1df-4472-8207-6a44f6e2f18e",
+  "version": "2.0",
+  "name": "Selenium Script",
+  "url": "https://www.manit.ac.in/",
+  "tests": [
+    {
+      "id": "f07a69b3-0b4e-47da-a4a4-499af0f14f7d",
+      "name": "Selenium Test",
+      "commands": [
+        {
+          "id": "6cc91efb-02d0-4f3e-b5fe-df38969a1421",
+          "comment": "",
+          "command": "open",
+          "target": "/",
+          "value": ""
+        },
+        {
+          "id": "2cd72a2d-fc9c-43d4-a4c1-7801ad45a67e",
+          "comment": "",
+          "command": "click",
+          "target": "//button[text()='Close']",
+          "value": ""
+        },
+        {
+          "id": "ab9c0659-eb50-4e8f-b5f7-9b3342e90b0c",
+          "comment": "",
+          "command": "click",
+          "target": "//a[starts-with(text(),'Notice/Circular')]",
+          "value": ""
+        },
+        {
+          "id": "e88d8aa1-b5b8-40b2-bd14-d1605d31b960",
+          "comment": "",
+          "command": "pause",
+          "target": "5000",
+          "value": ""
+        },
+        {
+          "id": "e88d8aa1-b5b8-40b2-bd14-d1605d31b961",
+          "comment": "",
+          "command": "click",
+          "target": "css=.notice-text a",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "suites": [
+    {
+      "id": "39a87a7d-94e3-40a7-bdb0-5a7d8f0a2e62",
+      "name": "Selenium Suite",
+      "tests": [
+        "f07a69b3-0b4e-47da-a4a4-499af0f14f7d"
+      ]
+    }
+  ],
+  "urls": [],
+  "plugins": []
+}
